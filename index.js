@@ -29,4 +29,5 @@ if (xpDoHeroi < 1.000) {nivelDoHeroi = "Ferro";
 
 // Saida //
 
-console.log('O Heroi de nome $ {nomeDoHeroi} esta no nivel $ {nivelDoHeroi};')
+console.log("O Heroi de nome: " + nomeDoHeroi 
+    `esta no nivel: ${nivelDoHeroi}`);
