@@ -4,23 +4,24 @@
 // Declarando Variaveis //
 
 let nomeDoHeroi = "Ragnar";
-let xpDoHeroi = 10.000;
+let xpDoHeroi = 10000;
 
 // Estrutura de decisao //
 
 let nivelDoHeroi;
+
 if (xpDoHeroi < 1.000) {nivelDoHeroi = "Ferro";
-} else if (xpDoHeroi >= 1.001 && xpDoHeroi >= 2.000) {
+} else if (xpDoHeroi >= 1001 && xpDoHeroi <= 2000) {
     nivelDoHeroi = "Bronze";
-} else if (xpDoHeroi <= 5.000) {
+} else if (xpDoHeroi <= 5000) {
     nivelDoHeroi = "Prata";
-} else if (xpDoHeroi <= 7.000) {
+} else if (xpDoHeroi <= 7000) {
     nivelDoHeroi = "Ouro";
-} else if (xpDoHeroi <= 8.000) {
+} else if (xpDoHeroi <= 8000) {
     nivelDoHeroi = "Platina";
-} else if (xpDoHeroi <= 9.000) {
+} else if (xpDoHeroi <= 9000) {
     nivelDoHeroi = "Ascendente";
-} else if (xpDoHeroi <= 10.000) {
+} else if (xpDoHeroi <= 10000) {
     nivelDoHeroi = " Imotal";
 } else {
     nivelDoHeroi = "Radiante";
@@ -29,5 +30,4 @@ if (xpDoHeroi < 1.000) {nivelDoHeroi = "Ferro";
 
 // Saida //
 
-console.log("O Heroi de nome: " + nomeDoHeroi 
-    `esta no nivel: ${nivelDoHeroi}`);
+console.log("O Heroi de nome: "  +  nomeDoHeroi  +  " Esta no nivel: " +  nivelDoHeroi );
